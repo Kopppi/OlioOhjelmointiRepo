@@ -29,14 +29,8 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-
-
         text = (TextView) findViewById(R.id.textView);
-
     }
-
-
 
     public void tekstiMuokkaus(View v)  {
         text.setText(inputText.getText());
